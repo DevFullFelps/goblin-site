@@ -272,6 +272,8 @@ section{
     .hero-img img{
         width: 100%;
         height: auto;
+        margin-left: 35px;
+
     }
 }
 
@@ -279,6 +281,8 @@ section{
     .hero-img img{
         width: 100%;
         height: auto;
+        margin-left: 35px;
+
     }
     .navlist{
         height: 35vh;
@@ -305,6 +309,7 @@ section{
         width: 265px;
         height: auto;
         transition: .2s;
+        margin-left: 35px;
     }
     .hero-text h1{
         font-size: 50px;
