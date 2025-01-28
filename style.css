@@ -274,3 +274,45 @@ section{
         height: auto;
     }
 }
+
+@media (max-width: 450px){
+    .hero-img img{
+        width: 100%;
+        height: auto;
+    }
+    .navlist{
+        height: 35vh;
+    }
+}
+
+@media (max-width: 400px){
+    section{
+        padding: 1 0.5%;
+        transition: .2s;
+        font-size: 1px;
+    }
+    .hero-text{
+        padding-top: 110px;
+        transition: .2s;
+    }
+    .hero-text a.cta{
+        font-size: 12px;
+    }
+    .hero-text a.ctaa{
+        font-size: 12px;
+    }
+    .hero-img img{
+        width: 265px;
+        height: auto;
+        transition: .2s;
+    }
+    .hero-text h1{
+        font-size: 50px;
+        margin: 0 0 20px;
+        transition: .2s;
+    }
+    .navlist{
+        height: 40vh;
+        padding: 20px 10px;
+    }
+}
